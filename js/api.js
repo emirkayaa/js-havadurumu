@@ -19,8 +19,6 @@ function getData(cityName) {
             weatherDesc.textContent = `${main}`;
             tempature.textContent = `${parseInt(temp - 273.15)}`;
             feel.textContent = `${parseInt(feels_like - 273.15)}`;
-
-
         })
         .catch(err => console.error(err))
 
